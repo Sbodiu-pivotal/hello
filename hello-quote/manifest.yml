@@ -1,0 +1,8 @@
+---
+memory: 512M
+applications:
+  - name: quote
+    services:
+      - service-registry
+    env:
+      SPRING_PROFILES_ACTIVE: production

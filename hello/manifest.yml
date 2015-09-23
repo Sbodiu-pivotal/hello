@@ -1,0 +1,10 @@
+---
+memory: 512M
+applications:
+  - name: hello
+    services:
+      - service-registry
+      - circuit-breaker-dashboard
+      - config-server
+    env:
+      SPRING_PROFILES_ACTIVE: production
